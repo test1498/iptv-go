@@ -1,9 +1,9 @@
-// Package utils
-// @Time:2023/08/24 06:36
-// @File:jsRun.go
+// Package list
+// @Time:2024/07/22 10:00
+// @File:mian.go
 // @SoftWare:Goland
-// @Author:feiyang
-// @Contact:TG@feiyangdigital
+// @Author:AM科技
+// @Contact:https://t.me/AM_CLUBS
 
 package utils
 

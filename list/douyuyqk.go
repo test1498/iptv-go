@@ -1,9 +1,9 @@
 // Package list
-// @Time:2023/06/02 10:00
+// @Time:2024/07/22 10:00
 // @File:mian.go
 // @SoftWare:Goland
-// @Author:feiyang
-// @Contact:TG@feiyangdigital
+// @Author:AM科技
+// @Contact:https://t.me/AM_CLUBS
 
 package list
 

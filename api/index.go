@@ -150,7 +150,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
         log.Println("Invalid path:", path)
         w.Header().Set("Content-Type", "text/html; charset=utf-8")
         // http.Error(w, "链接错误!", http.StatusInternalServerError)
-        fmt.Fprintf(w, "<h1>参数错误!</h1></br><p><a href='https://github.com/youshandefeiyang/LiveRedirect/blob/main/Golang/README.md'>使用教程</a></p>")
+        fmt.Fprintf(w, "<h1>参数错误!</h1></br><p><a href='https://github.com/ansoncloud8/iptv-go/blob/main/README.md'>使用教程</a></p>")
       }
 		  // log.Println("Invalid path:", path)
 		  // fmt.Fprintf(w, "<h1>链接错误!</h1>")

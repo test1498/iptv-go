@@ -1,9 +1,9 @@
-// Package liveurls
-// @Time:2023/02/17 16:32
-// @File:youtube.go
+// Package list
+// @Time:2024/07/22 10:00
+// @File:mian.go
 // @SoftWare:Goland
-// @Author:Popeye
-// @Contact:TG@popeyelau
+// @Author:AM科技
+// @Contact:https://t.me/AM_CLUBS
 
 package liveurls
 

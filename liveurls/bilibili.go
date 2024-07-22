@@ -1,9 +1,9 @@
-// Package liveurls
-// @Time:2023/02/10 01:03
-// @File:bilibili.go
+// Package list
+// @Time:2024/07/22 10:00
+// @File:mian.go
 // @SoftWare:Goland
-// @Author:feiyang
-// @Contact:TG@feiyangdigital
+// @Author:AM科技
+// @Contact:https://t.me/AM_CLUBS
 
 package liveurls
 
