@@ -148,3 +148,12 @@ http://你的Vercel部署完成后分配的域名或Vercel绑定自定域名/you
 ```
 
 ## 更多平台后续会酌情添加
+
+ # 
+<details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
+*我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
+  
+- **TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
+  
+</details>
+
