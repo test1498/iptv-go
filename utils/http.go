@@ -19,9 +19,9 @@ func GetTestVideoUrl(w http.ResponseWriter) {
   fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\""+str_time+"\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/logo.jpg\" group-title=\"列表更新时间\","+str_time)
   fmt.Fprintln(w, "https://www.youtube.com/watch?v=tj9uD575R80")
   fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PSDR-H264-AAC测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/logo.jpg\" group-title=\"4K频道\",4K60PSDR-H264-AAC测试")
-  fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/playad.m3u8")
-  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PHLG-HEVC-EAC3测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/logo.jpg\" group-title=\"4K频道\",4K60PHLG-HEVC-EAC3测试")
   fmt.Fprintln(w, "https://www.youtube.com/watch?v=tj9uD575R80")
+  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PHLG-HEVC-EAC3测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/logo.jpg\" group-title=\"4K频道\",4K60PHLG-HEVC-EAC3测试")
+  fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/playad.m3u8")
 }
 
 func GetLivePrefix(r *http.Request) string {
