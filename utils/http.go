@@ -16,11 +16,11 @@ func GetTestVideoUrl(w http.ResponseWriter) {
 	}
 	str_time := time.Now().In(TimeLocation).Format("2006-01-02 15:04:05")
   fmt.Fprintln(w, "#EXTM3U")
-  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\""+str_time+"\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/logo.jpg\" group-title=\"列表更新时间\","+str_time)
+  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\""+str_time+"\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/tg.jpg\" group-title=\"列表更新时间\","+str_time)
   fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/time/time.mp4")
-  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PSDR-H264-AAC测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/logo.jpg\" group-title=\"4K频道\",4K60PSDR-H264-AAC测试")
-  fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/playad.m3u8")
-  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PHLG-HEVC-EAC3测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/iptv-go/logo.jpg\" group-title=\"4K频道\",4K60PHLG-HEVC-EAC3测试")
+  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PSDR-H264-AAC测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/tg.jpg\" group-title=\"4K频道\",4K60PSDR-H264-AAC测试")
+  fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/sdr4kvideo/playad.m3u8")
+  fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PHLG-HEVC-EAC3测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/tg.jpg\" group-title=\"4K频道\",4K60PHLG-HEVC-EAC3测试")
   fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/hlg4kvideo/playad.m3u8")
 }
 
