@@ -54,25 +54,25 @@
 ```
 http://你的Vercel部署完成后分配的域名或Vercel绑定自定域名/huyayqk.m3u
 如Vercel自动分配的域名:
-http://iptv-go-seven-beige.vercel.app/huyayqk.m3u
+http://iptv-go-am.vercel.app/huyayqk.m3u
 ```
 ### 斗鱼一起看：
 ```
 http://你的Vercel部署完成后分配的域名或Vercel绑定自定域名/douyuyqk.m3u
 如Vercel自动分配的域名:
-http://iptv-go-seven-beige.vercel.app/douyuyqk.m3u
+http://iptv-go-am.vercel.app/douyuyqk.m3u
 ```
 ### YY轮播：
 ```
 http://你的Vercel部署完成后分配的域名或Vercel绑定自定域名/yylunbo.m3u
 如Vercel自动分配的域名:
-http://iptv-go-seven-beige.vercel.app/yylunbo.m3u
+http://iptv-go-am.vercel.app/yylunbo.m3u
 ```
 ### 如果使需要自定义M3U文件中的前缀域名，可以传入url参数（需要注意的是，当域名中含有特殊字符时，需要对链接进行urlencode处理）：
 ```
 http://你的Vercel部署完成后分配的域名或Vercel绑定自定域名/xxxyqk.m3u?url=http://192.168.10.1:35455
 如Vercel自动分配的域名:
-http://iptv-go-seven-beige.vercel.app/xxxyqk.m3u?url=http://192.168.10.1:35455
+http://iptv-go-am.vercel.app/xxxyqk.m3u?url=http://192.168.10.1:35455
 ```
 
 ## **1、虎牙、斗鱼、YY、抖音、BiliBili、YouTube播放地址**
