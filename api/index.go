@@ -86,7 +86,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
       }
     // 其他链接
 	  default:
-      adurl := "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/sdr4kvideo/playad.m3u8"
+      adurl := "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/sdr4kvideo2/playad.m3u8"
       params := strings.Split(path, "/")
 
       // log.Println("request url: ", path)
