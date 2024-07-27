@@ -21,7 +21,7 @@ func GetTestVideoUrl(w http.ResponseWriter) {
   fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PSDR-H264-AAC测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/tg.jpg\" group-title=\"4K频道\",4K60PSDR-H264-AAC测试")
   fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/sdr4kvideo2/playad.m3u8")
   fmt.Fprintln(w, "#EXTINF:-1 tvg-name=\"4K60PHLG-HEVC-EAC3测试\" tvg-logo=\"https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/tg.jpg\" group-title=\"4K频道\",4K60PHLG-HEVC-EAC3测试")
-  fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/hlg4kvideo/playad.m3u8")
+  fmt.Fprintln(w, "https://cdn.jsdelivr.net/gh/ansoncloud8/test-video/sdr4kvideo2/playad.m3u8")
 }
 
 func GetLivePrefix(r *http.Request) string {
